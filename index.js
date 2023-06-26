@@ -147,9 +147,11 @@ Aşağıdakileri feetDonusturucu fonsiyonunu kullanarak yap:
 Google'da arama ipucu: "feet cm dönüştürme"
 */
 
-function feetDonusturucu(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function feetDonusturucu(cm) {
+  let feet = cm * 0.0320808399;
+  return feet;
 }
+console.log(feetDonusturucu(60));
 
 /* Görev 5 : 5 küçük maymun yatakta zıplamış şarkısını çocuklar için hazırladığımı varsayalım. https://www.youtube.com/watch?v=e4EJ34xnlxk */
 
@@ -183,10 +185,21 @@ Aşağdakileri notHesapla fonksiyonunda yap.
  dönün
 */
 
-function notHesapla(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function notHesapla(not) {
+  if (not <= 100 && not >= 90) {
+    console.log("A aldın");
+  } else if (not <= 89 && not >= 80) {
+    console.log("B aldın");
+  } else if (not <= 79 && not >= 70) {
+    console.log("C aldın");
+  } else if (not <= 69 && not >= 60) {
+    console.log("D aldın");
+  } else if (not < 60) {
+    console.log("F aldın");
+  }
+  return;
 }
-
+console.log(notHesapla(84));
 /* Bonus Çalışma: Sesli harf sayacı - Kaç tane sesli harf var? */
 
 /*
