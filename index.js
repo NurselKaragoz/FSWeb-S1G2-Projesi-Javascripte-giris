@@ -19,6 +19,12 @@ Aşağıdakileri yap:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
+const surucuYasi = 32;
+if (surucuYasi >= 18) {
+  console.log("True");
+} else {
+  console.log("False");
+}
 
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
@@ -31,7 +37,12 @@ Aşağıdakileri yap:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
-
+let birincideger = 21;
+let ikincideger = 21;
+if (birincideger == ikincideger) {
+  birincideger = 68;
+}
+console.log(birincideger);
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
 
