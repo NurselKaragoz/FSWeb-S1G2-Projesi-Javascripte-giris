@@ -53,7 +53,11 @@ Aşağıdakileri yap:
 
    İPUCU: Number metoduna bakabilirsin
 */
+let deger = "1999";
+let yenideger = Number(deger);
 
+console.log(yenideger);
+console.log(typeof yenideger);
 /*
 Görev 1d - Çarpma
  
@@ -63,9 +67,11 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamla:
    3. console.log(carpma(7,4)) ile yazdığın fonsiyonu test edin. Console'da sonucu 28 olarak görmelisin.
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function carpma(a, b) {
+  let sonuc = a * b;
+  return sonuc;
 }
+console.log(carpma(4, 7));
 
 /* Görev 2 : Köpeğin Yaşı */
 
